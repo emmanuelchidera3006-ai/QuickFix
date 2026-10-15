@@ -1,0 +1,75 @@
+/*header*/
+.dera{
+    color: rgb(0, 0, 0);
+    background-color: rgb(27, 113, 241);
+    padding-left: 15px;
+    min-width: fit-content;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-radius: 0 15   15 0;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+.sd{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+h1{
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+*{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-right: 0px;
+}
+
+/*buttom navigation*/
+
+.riot{
+    display: flex;
+    justify-content: space-around;
+}
+/* A tags*/
+a{
+    text-decoration: none;
+    color: black;
+}
+/* top navigation*/
+.tg{
+    border-radius: 20px;
+    border: 1px solid blue;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+}
+/*electrician*/
+.er{
+    width: 130px;
+    border-radius: 20px;
+    height: 30px;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+    border: 1px solid blue;
+}
+
+.dec{
+    display: flex;
+    justify-content: space-between;
+}
+/*body*/
+div{
+    color: black;
+    background-color: rgb(147, 185, 243);
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border: 1px solid blue;
+    border-radius: 20px;
+}

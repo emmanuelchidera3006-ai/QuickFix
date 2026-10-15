@@ -1,0 +1,141 @@
+
+.tyre{
+    background-color: rgb(147, 185, 243);
+    color: rgb(9, 10, 10);
+    padding-left: 30px;
+    width: 200px;
+    float: left;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+.twe{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    background-color: rgb(27, 113, 241);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+
+.wire{
+    background-color: rgb(147, 185, 243);
+    color: rgb(9, 10, 10);
+    padding-left: 30px;
+    width: 200px;
+    float:inline-start;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.desx{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(27, 113, 241);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 50px;
+    
+
+} 
+
+h2{
+    margin-bottom: 0px;
+}
+.toy{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+/*third div*/
+.dog{
+    background-color: rgb(147, 185, 243);
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    border-radius: 15px;
+    height: 128px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+
+.rte{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+.awe{
+    margin-left: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+}
+.jug{
+    width: 30px;
+    height: 30px;
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+.jug:hover{
+    background-color: rgb(147, 185, 243);
+}
+
+.popup{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50, -120%);
+    animation-delay: 1s;
+    animation: greet 6s ease forwards;
+    border-radius: 50px;
+    background-color: rgb(147, 185, 243);
+    padding: 10px 20px;
+    backdrop-filter: blur(50px);
+    margin-top: 7px;
+}
+
+/*pop up messages*/
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+@keyframes greet{
+    0% { transform: translate(-50%, -130%);}
+    10% { transform: translate(-50%,0); }
+    85% { transform: translate(-50%, 0); }
+    100% { transform: translate(-50%, -120%); }
+}
+
+.loca{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  border: 2px solid white;
+  border-color: aliceblue;
+  border-radius: 50px;
+  height: 20px;
+  width: 70px;
+  color: black;
+  text-decoration: none;
+  float: left;
+  right: 70%;
+}

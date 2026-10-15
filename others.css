@@ -1,0 +1,119 @@
+header{
+   background-color: rgb(27, 113, 241); 
+   padding-bottom: 30px;
+   padding-left: 10px;
+   margin: 0px;
+   max-width: 100%;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+h1{
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+  
+}
+*{
+  margin-top: 0;
+}
+.hd{
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(27, 113, 241);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+section{
+    background-color: rgb(235, 237, 239);
+}
+button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 5px;
+}
+div{
+    background-color: rgb(147, 185, 243);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid blue;
+}
+.auto{
+  padding-bottom: 20px;
+  padding-top: 10px;  
+}
+.mechanic{
+  margin-top: 40px;
+  padding-bottom: 5px;
+  padding-top: 10px;  
+}
+.plum{
+  padding-bottom: 6px;
+  padding-top: 10px;  
+}
+.carpe{
+  padding-bottom: 6px;
+  padding-top: 10px;  
+}
+.contru{
+  padding-bottom: 6px;
+  padding-top: 10px;
+}
+.elect{
+  padding-bottom: 6px;
+  padding-top: 10px;
+}
+.tech{
+  padding-bottom: 6px;
+  padding-top: 10px;
+}
+.welder{
+  padding-bottom: 6px;
+  padding-top: 10px;
+}
+.painter{
+  padding-bottom: 6px;
+  padding-top: 10px;
+}
+.tiler{
+  padding-bottom: 6px;
+  padding-top: 10px;
+}
+.auto{
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.panelbeater{
+  padding-bottom: 6px;
+  padding-top: 10px;
+}
+.hair{
+    padding-bottom: 6px;
+  padding-top: 10px;
+}
+.wat{
+  padding-bottom: 6px;
+  padding-top: 10px;
+}
+.clo{
+  padding-bottom: 6px;
+  padding-top: 10px;
+}
+nav{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 1;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

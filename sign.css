@@ -1,0 +1,85 @@
+h1{
+    font-weight: bold;
+    font-size: x-large;
+}
+form{
+    text-align: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+}
+input{
+    width: 290px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid;
+    background-color: rgb(147, 185, 243);
+    padding-left: 15px;
+    margin-bottom: 15px;
+
+}
+body{
+    background-color: rgb(27, 113, 241);
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+}
+
+.hug{
+    font-size: small;
+    font-weight: bold;
+}
+
+.btn_gg{
+    width: 300px;
+    height: 37px;
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(147, 185, 243);
+    padding: 10px  55px;
+
+
+}
+button{
+    width: 300px;
+    height: 37px;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(147, 185, 243);
+}
+
+img{
+    width: 50px;
+    border-radius: 20px;
+}
+
+.log{
+    height: 37px;
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(147, 185, 243);
+    padding: 10px  125px;
+
+}
+
+div{
+    margin-top: 30px;
+}
+
+.divider{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: black;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.divider::before,
+.divider::after{
+   content:"";
+   flex: 1;
+   height: 1px;
+   background-color: black;
+}

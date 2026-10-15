@@ -1,0 +1,52 @@
+.ou{
+   
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+button{
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    
+}
+
+p{
+    padding-top: 0px;
+}
+.ifs{
+    float: right;
+    padding-right: 50px;
+
+}
+.if{
+    float: right;
+
+}
+.t{
+    text-align: center;
+    padding-left: 50px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+    transition: 0.3;
+}
+nav{
+    padding-bottom: 25px;
+
+}
+button{
+    background-color: rgb(66, 66, 241);
+    color: azure;
+    border-color: blue;
+}
+a{
+    padding-left: 50px;
+}
