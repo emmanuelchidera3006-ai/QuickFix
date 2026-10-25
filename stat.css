@@ -1,0 +1,180 @@
+.profile-wrapper{
+    background: rgb(27, 113, 241);
+    padding-bottom: 10px;
+    
+}
+
+body{
+    padding-bottom: 50px;
+    margin: 0;
+}
+.profile-header{
+    background: rgb(147, 185, 243);
+    height: 160px;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(24, 22, 22);
+}
+/* the TA circle wey dey on top each other */
+.avatar{
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(147, 185, 243);
+    width: 30px;
+    left: 50%;
+    top: -40px;
+    border-radius: 50px;
+    border: 4px solid white;
+    text-align: center;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-50%);
+}
+/*white card wey dey unto the hearder*/
+.profile{
+   position: relative;
+   background-color: white;
+   margin: -50px 15px 0 15px;
+   border-radius: 20px;
+   text-align: center;
+   padding: 60px 20px 20px 20px;
+}
+.stats{
+    display: flex;
+    gap: 10px;
+    margin_top: 20px;
+}
+.stats div{
+    flex: 1;
+    background: rgb(147, 185, 243);
+    border-radius: 10px;
+    padding: 10px;
+}
+.stats b{
+    display: block;
+}
+
+/*Services*/
+p{
+    font-weight: bold;
+}
+.ser{
+    display:inline-block;
+    float: inline-start;
+    justify-content: space-between;
+    background-color:  rgb(147, 185, 243);
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 80px;
+    margin-left: 5px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+.tey{
+    float: inline-start;
+    justify-content: space-between;
+    background-color:  rgb(147, 185, 243);
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 80px;
+    margin-left: 5px;
+    border-radius: 50px;
+    border: 1px solid; 
+}
+.Service{
+    margin-left: 8px;
+}
+.srv{
+    margin-bottom: 0px;
+}
+/*review*/
+.view{
+    margin-left: 8px;
+}
+.seal{
+    float: right;
+    padding-right: 10px;
+    
+}
+.re{
+    background-color:  rgb(147, 185, 243); 
+    padding-bottom: 1px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 105px; 
+    padding-left: 10px;
+    padding-top: 0px;
+}
+.viewname{
+    padding-top: 1px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/*navigation*/
+a{
+    color: black;
+    text-decoration: none;
+}
+.nav{
+    display: inline-block;
+    margin-top: 20px;
+    background-color:  rgb(147, 185, 243);
+    
+    
+}
+#book{
+   float: right;
+   margin-right: 8px;
+   margin-left: 8px;
+   padding-right: 10px;
+   padding-left: 10px;
+   padding-bottom: 0px;
+   padding-top: 8px;
+   border-radius: 5px;
+   margin-right: 15px;
+   font-weight: bold;
+   margin-bottom: 8px;
+}
+#mess{
+   margin-left: 8px;
+   padding-right: 10px;
+   padding-left: 10px;
+   padding-bottom: 0px;
+   padding-top: 8px;
+   border-radius: 5px;
+   margin-left: 15px;
+   font-weight: bold;
+   margin-bottom: 8px;
+}
+/*footer*/
+.footer-nav{
+    background-color: rgb(27, 113, 241);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    height: 60px;
+    z-indez: 100;
+    box-sizing: border-box;
+    text-align: center;
+}
